@@ -1,0 +1,23 @@
+{
+    "name": "mariolucas/cep-digital",
+    "description": "Buscar de CEP",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Mário Lucas",
+            "email": "mariolucasdev@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=8.1.10"
+    },
+    "autoload": {
+        "psr-0": {
+            "Search": "src/"
+        },
+        "psr-4": {
+            "Mariolucas\\CepDigital\\": "src/"
+        }
+    }
+}
