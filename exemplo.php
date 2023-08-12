@@ -6,6 +6,6 @@ use Mariolucas\CepDigital\Search;
 
 $search = new Search();
 
-$result = $search->getAddressFromZipcode('56280000');
+$result = $search->getAddressFromZipCode('56280000');
 
 print_r($result);
